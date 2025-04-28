@@ -20,3 +20,4 @@ class Mobil
             cout << "masukkan harga mobil: ";
             cin >> harga_mobil;
         }
+        void output_data()
