@@ -8,4 +8,11 @@ class persegi_panjang
         int lebar;
         int luas;
     public:
+        void input_data()
+        {
+            cout << "masukkan panjang: ";
+            cin >> panjang;
+            cout << "masukkan lebar: ";
+            cin >> lebar;
+        }
 
