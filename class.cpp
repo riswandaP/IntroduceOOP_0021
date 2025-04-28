@@ -27,3 +27,11 @@ class Mobil
 
 };
 
+int main()
+{
+    Mobil nazar;
+    nazar.input_data();
+    cout << "nama mobil = " << nazar.nama_mobil << endl;
+    cout << "tipe mobil = " << nazar.tipe_mobil << endl;
+    nazar.output_data();
+}
