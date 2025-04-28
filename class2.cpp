@@ -15,4 +15,7 @@ class persegi_panjang
             cout << "masukkan lebar: ";
             cin >> lebar;
         }
-
+        void hitung_luas()
+        {
+            luas = panjang*lebar;
+        }
