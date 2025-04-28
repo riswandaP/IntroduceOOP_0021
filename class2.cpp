@@ -25,4 +25,10 @@ class persegi_panjang
         }
 };
 
-
+int main()
+{
+        persegi_panjang PP;
+        PP.input_data();
+        PP.hitung_luas();
+        PP.output_data();
+}
