@@ -19,3 +19,10 @@ class persegi_panjang
         {
             luas = panjang*lebar;
         }
+        void output_data()
+        {
+            cout << "tampilkan luas = " << luas << endl;
+        }
+};
+
+
